@@ -1,0 +1,4 @@
+iters: 500
+lr: 0.001
+problem: zdt1
+seed: 0

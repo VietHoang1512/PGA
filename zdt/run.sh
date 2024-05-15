@@ -1,0 +1,1 @@
+python run.py --problem zdt1 --iters 500
