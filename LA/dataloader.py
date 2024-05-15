@@ -1,7 +1,3 @@
-"""
-Author: Haoran Chen
-Date: 2022.08.15
-"""
 
 import torch
 from torch import nn
