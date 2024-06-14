@@ -1,0 +1,126 @@
+Generating pseudo labels for painting data
+pseudo label correct rate is 0.5643025911112871
+Data statistic {'clipart': 48833, 'infograph': 53201, 'quickdraw': 172500, 'real': 175327, 'sketch': 70386}
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+PromptGenerator                          2,834,432
+├─ParameterList: 1-1                     40,960
+=================================================================
+Total params: 2,875,392
+Trainable params: 2,875,392
+Non-trainable params: 0
+=================================================================
+PromptGenerator =================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+PromptGenerator                          2,834,432
+├─ParameterList: 1-1                     40,960
+=================================================================
+Total params: 2,875,392
+Trainable params: 2,875,392
+Non-trainable params: 0
+=================================================================
+name: ctx_cls, shape torch.Size([345, 16, 512]), require grad: True
+name: ctx_target, shape torch.Size([1, 16, 512]), require grad: True
+name: ctx_source.0, shape torch.Size([1, 16, 512]), require grad: True
+name: ctx_source.1, shape torch.Size([1, 16, 512]), require grad: True
+name: ctx_source.2, shape torch.Size([1, 16, 512]), require grad: True
+name: ctx_source.3, shape torch.Size([1, 16, 512]), require grad: True
+name: ctx_source.4, shape torch.Size([1, 16, 512]), require grad: True
+Best accuracy so far: 0.6201151246303338, step 500, accuracy 0.6201151246303338
+Best accuracy so far: 0.6249075834389523, step 1000, accuracy 0.6249075834389523
+Best accuracy so far: 0.6334231094212083, step 1500, accuracy 0.6334231094212083
+Best accuracy so far: 0.6334231094212083, step 2000, accuracy 0.6298980777355302
+Best accuracy so far: 0.633885192226447, step 2500, accuracy 0.633885192226447
+Best accuracy so far: 0.6347169412758766, step 2510, accuracy 0.6347169412758766
+Best accuracy so far: 0.6347169412758766, step 2520, accuracy 0.6339908111533586
+Best accuracy so far: 0.6347169412758766, step 2530, accuracy 0.6331062526404732
+Best accuracy so far: 0.6347169412758766, step 2540, accuracy 0.632432931981411
+Best accuracy so far: 0.6347169412758766, step 2550, accuracy 0.6310994930291508
+Best accuracy so far: 0.6347169412758766, step 2560, accuracy 0.6314691592733418
+Best accuracy so far: 0.6347169412758766, step 2570, accuracy 0.6340436206168145
+Best accuracy so far: 0.6348489649345163, step 2580, accuracy 0.6348489649345163
+Best accuracy so far: 0.6355750950570342, step 2590, accuracy 0.6355750950570342
+Best accuracy so far: 0.6361956062526405, step 2600, accuracy 0.6361956062526405
+Best accuracy so far: 0.6361956062526405, step 2610, accuracy 0.6337399662019434
+Best accuracy so far: 0.6361956062526405, step 2620, accuracy 0.6317728136882129
+Best accuracy so far: 0.6361956062526405, step 2630, accuracy 0.6329214195183777
+Best accuracy so far: 0.6361956062526405, step 2640, accuracy 0.6339115969581749
+Best accuracy so far: 0.6361956062526405, step 2650, accuracy 0.6342680608365019
+Best accuracy so far: 0.6361956062526405, step 2660, accuracy 0.6333042881284326
+Best accuracy so far: 0.6361956062526405, step 2670, accuracy 0.6315351711026616
+Best accuracy so far: 0.6361956062526405, step 2680, accuracy 0.6318652302492607
+Best accuracy so far: 0.6361956062526405, step 2690, accuracy 0.6312843261512463
+Best accuracy so far: 0.6361956062526405, step 2700, accuracy 0.6316671947613012
+Best accuracy so far: 0.6361956062526405, step 2710, accuracy 0.6343736797634136
+Best accuracy so far: 0.6361956062526405, step 2720, accuracy 0.6321556822982678
+Best accuracy so far: 0.6361956062526405, step 2730, accuracy 0.6313107308829742
+Best accuracy so far: 0.6361956062526405, step 2740, accuracy 0.6314559569074778
+Best accuracy so far: 0.6361956062526405, step 2750, accuracy 0.6293831854668357
+Best accuracy so far: 0.6361956062526405, step 2760, accuracy 0.6297000422475708
+Best accuracy so far: 0.6361956062526405, step 2770, accuracy 0.6302809463455852
+Best accuracy so far: 0.6361956062526405, step 2780, accuracy 0.6322084917617237
+Best accuracy so far: 0.6361956062526405, step 2790, accuracy 0.6349677862272919
+Best accuracy so far: 0.6361956062526405, step 2800, accuracy 0.635641106886354
+Best accuracy so far: 0.6361956062526405, step 2810, accuracy 0.6352582382762991
+Best accuracy so far: 0.6361956062526405, step 2820, accuracy 0.6342812632023659
+Best accuracy so far: 0.6361956062526405, step 2830, accuracy 0.6356279045204901
+Best accuracy so far: 0.6370537600337981, step 2840, accuracy 0.6370537600337981
+Best accuracy so far: 0.6371197718631179, step 2850, accuracy 0.6371197718631179
+Best accuracy so far: 0.6371197718631179, step 2860, accuracy 0.6344528939585974
+Best accuracy so far: 0.6371197718631179, step 2870, accuracy 0.6322216941275877
+Best accuracy so far: 0.6371197718631179, step 2880, accuracy 0.6324065272496832
+Best accuracy so far: 0.6371197718631179, step 2890, accuracy 0.6334099070553443
+Best accuracy so far: 0.6371197718631179, step 2900, accuracy 0.6347565483734685
+Best accuracy so far: 0.6371197718631179, step 2910, accuracy 0.6354166666666666
+Best accuracy so far: 0.6371197718631179, step 2920, accuracy 0.6340304182509505
+Best accuracy so far: 0.6371197718631179, step 2930, accuracy 0.6326045627376425
+Best accuracy so far: 0.6371197718631179, step 2940, accuracy 0.6339644064216308
+Best accuracy so far: 0.6371197718631179, step 2950, accuracy 0.6315219687367977
+Best accuracy so far: 0.6371197718631179, step 2960, accuracy 0.6335815378115758
+Best accuracy so far: 0.6371197718631179, step 2970, accuracy 0.6365916772285594
+Best accuracy so far: 0.6381099493029151, step 2980, accuracy 0.6381099493029151
+Best accuracy so far: 0.6381099493029151, step 2990, accuracy 0.6366972961554711
+Best accuracy so far: 0.6381099493029151, step 3000, accuracy 0.6368293198141107
+Best accuracy so far: 0.6381099493029151, step 3010, accuracy 0.6357335234474017
+Best accuracy so far: 0.6381099493029151, step 3020, accuracy 0.6355354879594424
+Best accuracy so far: 0.6381099493029151, step 3030, accuracy 0.634584917617237
+Best accuracy so far: 0.6381099493029151, step 3040, accuracy 0.6350998098859315
+Best accuracy so far: 0.6381099493029151, step 3050, accuracy 0.63422845373891
+Best accuracy so far: 0.6381099493029151, step 3060, accuracy 0.6340436206168145
+Best accuracy so far: 0.6381099493029151, step 3070, accuracy 0.633858787494719
+Best accuracy so far: 0.6381099493029151, step 3080, accuracy 0.6303337558090409
+Best accuracy so far: 0.6381099493029151, step 3090, accuracy 0.6297132446134347
+Best accuracy so far: 0.6381099493029151, step 3100, accuracy 0.6314823616392058
+Best accuracy so far: 0.6381099493029151, step 3110, accuracy 0.6317728136882129
+Best accuracy so far: 0.6381099493029151, step 3120, accuracy 0.6320368610054922
+Best accuracy so far: 0.6381099493029151, step 3130, accuracy 0.6328554076890579
+Best accuracy so far: 0.6381099493029151, step 3140, accuracy 0.6334231094212083
+Best accuracy so far: 0.6381099493029151, step 3150, accuracy 0.6330006337135615
+Best accuracy so far: 0.6381099493029151, step 3160, accuracy 0.633145859738065
+Best accuracy so far: 0.6381099493029151, step 3170, accuracy 0.6328422053231939
+Best accuracy so far: 0.6381099493029151, step 3180, accuracy 0.6334231094212083
+Best accuracy so far: 0.6381099493029151, step 3190, accuracy 0.633502323616392
+Best accuracy so far: 0.6381099493029151, step 3200, accuracy 0.6346905365441488
+Best accuracy so far: 0.6381099493029151, step 3210, accuracy 0.6330270384452894
+Best accuracy so far: 0.6381099493029151, step 3220, accuracy 0.6289739121250528
+Best accuracy so far: 0.6381099493029151, step 3230, accuracy 0.6278121039290241
+Best accuracy so far: 0.6381099493029151, step 3240, accuracy 0.6293831854668357
+Best accuracy so far: 0.6381099493029151, step 3250, accuracy 0.6312183143219265
+Best accuracy so far: 0.6381099493029151, step 3260, accuracy 0.6295680185889312
+Best accuracy so far: 0.6381099493029151, step 3270, accuracy 0.6306242078580482
+Best accuracy so far: 0.6381099493029151, step 3280, accuracy 0.6318388255175328
+Best accuracy so far: 0.6381099493029151, step 3290, accuracy 0.6316275876637093
+Best accuracy so far: 0.6381099493029151, step 3300, accuracy 0.6324857414448669
+Best accuracy so far: 0.6381099493029151, step 3310, accuracy 0.6315219687367977
+Best accuracy so far: 0.6381099493029151, step 3320, accuracy 0.6292511618081961
+Best accuracy so far: 0.6381099493029151, step 3330, accuracy 0.6281025559780312
+Best accuracy so far: 0.6381099493029151, step 3340, accuracy 0.627125580904098
+Best accuracy so far: 0.6381099493029151, step 3350, accuracy 0.625356463878327
+Best accuracy so far: 0.6381099493029151, step 3360, accuracy 0.6276404731727926
+Best accuracy so far: 0.6381099493029151, step 3370, accuracy 0.6303469581749049
+Best accuracy so far: 0.6381099493029151, step 3380, accuracy 0.6311126953950148
+Best accuracy so far: 0.6381099493029151, step 3390, accuracy 0.6307958386142797
+Best accuracy so far: 0.6381099493029151, step 3400, accuracy 0.6307694338825518
+7

@@ -1,0 +1,252 @@
+===============================================================================================
+Layer (type:depth-idx)                                                 Param #
+===============================================================================================
+Custom_Clip                                                            1
+├─ModifiedResNet: 1-1                                                  --
+│    └─Conv2d: 2-1                                                     (864)
+│    └─BatchNorm2d: 2-2                                                (64)
+│    └─ReLU: 2-3                                                       --
+│    └─Conv2d: 2-4                                                     (9,216)
+│    └─BatchNorm2d: 2-5                                                (64)
+│    └─ReLU: 2-6                                                       --
+│    └─Conv2d: 2-7                                                     (18,432)
+│    └─BatchNorm2d: 2-8                                                (128)
+│    └─ReLU: 2-9                                                       --
+│    └─AvgPool2d: 2-10                                                 --
+│    └─Sequential: 2-11                                                --
+│    │    └─Bottleneck: 3-1                                            (75,008)
+│    │    └─Bottleneck: 3-2                                            (70,400)
+│    │    └─Bottleneck: 3-3                                            (70,400)
+│    └─Sequential: 2-12                                                --
+│    │    └─Bottleneck: 3-4                                            (379,392)
+│    │    └─Bottleneck: 3-5                                            (280,064)
+│    │    └─Bottleneck: 3-6                                            (280,064)
+│    │    └─Bottleneck: 3-7                                            (280,064)
+│    └─Sequential: 2-13                                                --
+│    │    └─Bottleneck: 3-8                                            (1,512,448)
+│    │    └─Bottleneck: 3-9                                            (1,117,184)
+│    │    └─Bottleneck: 3-10                                           (1,117,184)
+│    │    └─Bottleneck: 3-11                                           (1,117,184)
+│    │    └─Bottleneck: 3-12                                           (1,117,184)
+│    │    └─Bottleneck: 3-13                                           (1,117,184)
+│    └─Sequential: 2-14                                                --
+│    │    └─Bottleneck: 3-14                                           (6,039,552)
+│    │    └─Bottleneck: 3-15                                           (4,462,592)
+│    │    └─Bottleneck: 3-16                                           (4,462,592)
+│    └─AttentionPool2d: 2-15                                           102,400
+│    │    └─Linear: 3-17                                               (4,196,352)
+│    │    └─Linear: 3-18                                               (4,196,352)
+│    │    └─Linear: 3-19                                               (4,196,352)
+│    │    └─Linear: 3-20                                               (2,098,176)
+├─TextEncoder: 1-2                                                     563,712
+│    └─Transformer: 2-16                                               --
+│    │    └─Sequential: 3-21                                           (37,828,608)
+│    └─LayerNorm: 2-17                                                 (1,024)
+===============================================================================================
+Total params: 76,710,241
+Trainable params: 0
+Non-trainable params: 76,710,241
+===============================================================================================
+Custom_Clip ===============================================================================================
+Layer (type:depth-idx)                                                 Param #
+===============================================================================================
+Custom_Clip                                                            1
+├─ModifiedResNet: 1-1                                                  --
+│    └─Conv2d: 2-1                                                     (864)
+│    └─BatchNorm2d: 2-2                                                (64)
+│    └─ReLU: 2-3                                                       --
+│    └─Conv2d: 2-4                                                     (9,216)
+│    └─BatchNorm2d: 2-5                                                (64)
+│    └─ReLU: 2-6                                                       --
+│    └─Conv2d: 2-7                                                     (18,432)
+│    └─BatchNorm2d: 2-8                                                (128)
+│    └─ReLU: 2-9                                                       --
+│    └─AvgPool2d: 2-10                                                 --
+│    └─Sequential: 2-11                                                --
+│    │    └─Bottleneck: 3-1                                            (75,008)
+│    │    └─Bottleneck: 3-2                                            (70,400)
+│    │    └─Bottleneck: 3-3                                            (70,400)
+│    └─Sequential: 2-12                                                --
+│    │    └─Bottleneck: 3-4                                            (379,392)
+│    │    └─Bottleneck: 3-5                                            (280,064)
+│    │    └─Bottleneck: 3-6                                            (280,064)
+│    │    └─Bottleneck: 3-7                                            (280,064)
+│    └─Sequential: 2-13                                                --
+│    │    └─Bottleneck: 3-8                                            (1,512,448)
+│    │    └─Bottleneck: 3-9                                            (1,117,184)
+│    │    └─Bottleneck: 3-10                                           (1,117,184)
+│    │    └─Bottleneck: 3-11                                           (1,117,184)
+│    │    └─Bottleneck: 3-12                                           (1,117,184)
+│    │    └─Bottleneck: 3-13                                           (1,117,184)
+│    └─Sequential: 2-14                                                --
+│    │    └─Bottleneck: 3-14                                           (6,039,552)
+│    │    └─Bottleneck: 3-15                                           (4,462,592)
+│    │    └─Bottleneck: 3-16                                           (4,462,592)
+│    └─AttentionPool2d: 2-15                                           102,400
+│    │    └─Linear: 3-17                                               (4,196,352)
+│    │    └─Linear: 3-18                                               (4,196,352)
+│    │    └─Linear: 3-19                                               (4,196,352)
+│    │    └─Linear: 3-20                                               (2,098,176)
+├─TextEncoder: 1-2                                                     563,712
+│    └─Transformer: 2-16                                               --
+│    │    └─Sequential: 3-21                                           (37,828,608)
+│    └─LayerNorm: 2-17                                                 (1,024)
+===============================================================================================
+Total params: 76,710,241
+Trainable params: 0
+Non-trainable params: 76,710,241
+===============================================================================================
+**************************************************
+Start training on b
+Generating pseudo labels for b data
+pseudo label correct rate is 0.685
+Data statistic {'c': 600, 'i': 600, 'p': 591}
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+PromptGenerator                          114,688
+=================================================================
+Total params: 114,688
+Trainable params: 114,688
+Non-trainable params: 0
+=================================================================
+PromptGenerator =================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+PromptGenerator                          114,688
+=================================================================
+Total params: 114,688
+Trainable params: 114,688
+Non-trainable params: 0
+=================================================================
+name: ctx_cls, shape torch.Size([12, 16, 512]), require grad: True
+name: ctx_source, shape torch.Size([1, 16, 512]), require grad: True
+name: ctx_target, shape torch.Size([1, 16, 512]), require grad: True
+Best accuracy so far: 0.125, step 1
+Best accuracy so far: 0.16166666666666665, step 1
+Best accuracy so far: 0.2966666666666667, step 2
+Best accuracy so far: 0.49833333333333335, step 2
+Best accuracy so far: 0.6066666666666667, step 3
+Best accuracy so far: 0.6766666666666666, step 4
+Best accuracy so far: 0.6783333333333333, step 8
+Best accuracy so far: 0.6933333333333334, step 9
+Best accuracy so far: 0.7016666666666667, step 12
+Best accuracy so far: 0.7033333333333334, step 13
+Best accuracy so far: 0.7066666666666667, step 14
+Best accuracy so far: 0.7133333333333334, step 18
+Best accuracy so far: 0.7316666666666667, step 19
+Best accuracy so far: 0.7383333333333333, step 20
+Best accuracy so far: 0.7416666666666667, step 21
+**************************************************
+Start training on c
+Generating pseudo labels for c data
+pseudo label correct rate is 0.8783333333333333
+Data statistic {'b': 600, 'i': 600, 'p': 591}
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+PromptGenerator                          114,688
+=================================================================
+Total params: 114,688
+Trainable params: 114,688
+Non-trainable params: 0
+=================================================================
+PromptGenerator =================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+PromptGenerator                          114,688
+=================================================================
+Total params: 114,688
+Trainable params: 114,688
+Non-trainable params: 0
+=================================================================
+name: ctx_cls, shape torch.Size([12, 16, 512]), require grad: True
+name: ctx_source, shape torch.Size([1, 16, 512]), require grad: True
+name: ctx_target, shape torch.Size([1, 16, 512]), require grad: True
+Best accuracy so far: 0.17333333333333334, step 1
+Best accuracy so far: 0.235, step 1
+Best accuracy so far: 0.7433333333333333, step 2
+Best accuracy so far: 0.7733333333333333, step 2
+Best accuracy so far: 0.785, step 3
+Best accuracy so far: 0.895, step 4
+Best accuracy so far: 0.8983333333333333, step 4
+Best accuracy so far: 0.9033333333333333, step 5
+Best accuracy so far: 0.9083333333333333, step 8
+Best accuracy so far: 0.9183333333333333, step 8
+Best accuracy so far: 0.9233333333333333, step 21
+Best accuracy so far: 0.9266666666666666, step 38
+Best accuracy so far: 0.9383333333333334, step 40
+Best accuracy so far: 0.9433333333333334, step 41
+**************************************************
+Start training on i
+Generating pseudo labels for i data
+pseudo label correct rate is 0.8816666666666667
+Data statistic {'b': 600, 'c': 600, 'p': 591}
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+PromptGenerator                          114,688
+=================================================================
+Total params: 114,688
+Trainable params: 114,688
+Non-trainable params: 0
+=================================================================
+PromptGenerator =================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+PromptGenerator                          114,688
+=================================================================
+Total params: 114,688
+Trainable params: 114,688
+Non-trainable params: 0
+=================================================================
+name: ctx_cls, shape torch.Size([12, 16, 512]), require grad: True
+name: ctx_source, shape torch.Size([1, 16, 512]), require grad: True
+name: ctx_target, shape torch.Size([1, 16, 512]), require grad: True
+Best accuracy so far: 0.49833333333333335, step 1
+Best accuracy so far: 0.805, step 2
+Best accuracy so far: 0.825, step 2
+Best accuracy so far: 0.8516666666666667, step 5
+Best accuracy so far: 0.8983333333333333, step 5
+Best accuracy so far: 0.9083333333333333, step 6
+Best accuracy so far: 0.9283333333333333, step 11
+Best accuracy so far: 0.935, step 12
+Best accuracy so far: 0.945, step 13
+Best accuracy so far: 0.9516666666666667, step 14
+Best accuracy so far: 0.9533333333333334, step 15
+**************************************************
+Start training on p
+Generating pseudo labels for p data
+pseudo label correct rate is 0.7868020304568528
+Data statistic {'b': 600, 'c': 600, 'i': 600}
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+PromptGenerator                          114,688
+=================================================================
+Total params: 114,688
+Trainable params: 114,688
+Non-trainable params: 0
+=================================================================
+PromptGenerator =================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+PromptGenerator                          114,688
+=================================================================
+Total params: 114,688
+Trainable params: 114,688
+Non-trainable params: 0
+=================================================================
+name: ctx_cls, shape torch.Size([12, 16, 512]), require grad: True
+name: ctx_source, shape torch.Size([1, 16, 512]), require grad: True
+name: ctx_target, shape torch.Size([1, 16, 512]), require grad: True
+Best accuracy so far: 0.3298245614035088, step 1
+Best accuracy so far: 0.4807017543859649, step 2
+Best accuracy so far: 0.4982456140350877, step 2
+Best accuracy so far: 0.7263157894736842, step 3
+Best accuracy so far: 0.8157894736842105, step 5
+Best accuracy so far: 0.8210526315789474, step 6
+Best accuracy so far: 0.8280701754385965, step 8
+Best accuracy so far: 0.8298245614035088, step 45
+Best accuracy so far: 0.8315789473684211, step 46
+Best accuracy for each domain: [0.7416666666666667, 0.9433333333333334, 0.9533333333333334, 0.8315789473684211] Average: 0.8674780701754387
