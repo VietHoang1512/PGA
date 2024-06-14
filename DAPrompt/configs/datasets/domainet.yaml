@@ -1,0 +1,12 @@
+INPUT:
+  SIZE: (224, 224)
+  TRANSFORMS: ["random_flip", "center_crop", "normalize"]
+
+DATASET:
+  NAME: "DomainNet"
+  SOURCE_DOMAINS: ["clipart", "infograph", "painting", "quickdraw", "real", "sketch"]
+  TARGET_DOMAINS: ["sketch"]
+
+MODEL:
+  BACKBONE:
+    NAME: "resnet101"

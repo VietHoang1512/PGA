@@ -1,0 +1,12 @@
+INPUT:
+  SIZE: (224, 224)
+  TRANSFORMS: ["random_flip", "center_crop", "normalize"]
+
+DATASET:
+  NAME: "Office31"
+  SOURCE_DOMAINS: ["amazon"]
+  TARGET_DOMAINS: ["webcam"]
+
+MODEL:
+  BACKBONE:
+    NAME: "resnet50"
